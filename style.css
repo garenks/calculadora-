@@ -1,20 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap');
-
 body {
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
 }
 
+form{
+    border: 1px lightgray solid;
+    padding: 20px;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px grey;
+}  
+
 input {
-    color: white;
+    color: black;
     padding: 18px;
     outline: none;
     font-size: 28px;
-    font-family: 'Tiro Devanagari Marathi', serif;
+    font-family: 'Lucida Sans';
     border-radius: 25%;
 }
 
@@ -35,7 +40,7 @@ input {
 .text1{
     width: 23px;
     height: 26px;
-    border-radius: 50%;
+    border-radius: 10%;
     letter-spacing: 5px;
     text-align: center;
     margin-bottom: 12px;
@@ -44,11 +49,11 @@ input {
 
 .main{
     display: inline-block;
-    color: #808080;
+    color: white;
 }
 
 .maincolor{
-    background-color: black;
+    background-color: white;
 }
 
 .blue {
